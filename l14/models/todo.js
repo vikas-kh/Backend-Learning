@@ -4,9 +4,9 @@ const todoSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    discription:{
+    description:{
         type:String,
         required:true
     }
 });
-export const todo=mongoose.model("todo",todoSchema);
+export const Todo=mongoose.model("todo",todoSchema);
